@@ -20,9 +20,9 @@ router
     .put(updateThought)
     .delete(deleteThought); 
 
-// router
-//     .route('/:ThoughtId/friends/:friendId')
-//     .post(addFriend)
-//     .delete(deleteFriend);
+router
+    .route('/:ThoughtId/friends/:friendId')
+    .post(addFriend)
+    .delete(deleteFriend);
     
 module.exports = router;      
